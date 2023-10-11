@@ -1,0 +1,9 @@
+/.vs
+/Presentation/appsettings.json
+/Presentation/appsettings.Development.json
+/Presentation/bin
+/Presentation/obj
+/Logic/bin
+/Logic/obj
+/DATA/bin
+/DATA/obj
