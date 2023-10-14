@@ -41,7 +41,6 @@ namespace Data.Extensions
             }).AddJwtBearer(p =>
             {
                 var key = Encoding.ASCII.GetBytes(configuration["JWTToken:Key"]!);
-                p.RequireHttpsMetadata = false;
                 p.SaveToken = true;
                 p.TokenValidationParameters = new TokenValidationParameters
                 {
